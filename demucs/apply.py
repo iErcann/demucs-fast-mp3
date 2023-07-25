@@ -195,6 +195,7 @@ def apply_model(model: tp.Union[BagOfModels, Model],
         'pool': pool,
         'segment': segment,
         'lock': lock,
+        'num_workers': num_workers
     }
     out: tp.Union[float, th.Tensor]
     res: tp.Union[float, th.Tensor, None]
